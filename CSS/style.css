@@ -1,12 +1,16 @@
 body {
-    background-color: #3C0000;
+    background-color: #FFFFEA;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5;
+    text-align: justify;
+    padding: 0 50px 50px 50px;
+}
+.heading {
+    border-bottom: 3px solid #67697c;
 }
 
-section {
+.about {
     padding: 10px;
-    background-color: #F5D0C5;'
     color: #050609;
     margin-left: 15px;
     margin-right: 15px;
@@ -14,12 +18,50 @@ section {
 
 .quote {
    padding-left: 10px;
-   border-left: 5px solid #3C0000;
+   border-left: 5px solid #67697C;
 }
 
-header {
-    background-color: #D69F7E;
+.link {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #67697C;
+}
+
+h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
+ }
+.top-nav a {
+    color: #67697C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+img {
+    float: right;
+    width: 20%;
+    height: 20%;
+    margin: 0 0 0 30px;
+    border:3px solid #67697C;
+}
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 250px;
 
 }
+
+.gallery img {
+    width: 100%;
+    height: 300px;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
