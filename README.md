@@ -1,2 +1,3 @@
 # ada-lovelace
-Exercise
+
+This is an exercise.
